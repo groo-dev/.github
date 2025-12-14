@@ -15,8 +15,8 @@ End-user applications powered by Groo.
 
 | | Description |
 |--|-------------|
-| **Pass** | Password manager |
-| **Drive** | Cloud storage |
+| [**Pass**](https://pass.groo.dev) | Password manager |
+| [**Drive**](https://drive.groo.dev) | Cloud storage |
 
 ### Developer Tools
 
