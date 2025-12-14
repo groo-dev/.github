@@ -1,0 +1,39 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="400" fill="#09090b"/>
+
+  <!-- Grid pattern -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#27272a" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="logoGradient" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#14B8A6"/>
+      <stop offset="1" stop-color="#0D9488"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="600" cy="200" r="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D9488" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#09090b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="400" fill="url(#grid)"/>
+  <rect width="1200" height="400" fill="url(#glow)"/>
+
+  <!-- Logo + Title group -->
+  <g transform="translate(600, 120)">
+    <!-- Logo -->
+    <g transform="translate(-105, 0)">
+      <rect width="60" height="60" rx="12" fill="url(#logoGradient)"/>
+      <path d="M30 11.25C19.645 11.25 11.25 19.645 11.25 30C11.25 40.355 19.645 48.75 30 48.75C35.175 48.75 39.825 46.669 43.125 43.219V30H30V35.625H37.5V40.013C35.494 42.213 32.888 43.125 30 43.125C22.751 43.125 16.875 37.249 16.875 30C16.875 22.751 22.751 16.875 30 16.875C33.675 16.875 36.994 18.394 39.375 20.813L43.35 16.838C39.919 13.406 35.213 11.25 30 11.25Z" fill="white"/>
+    </g>
+    <!-- Title -->
+    <text x="-30" y="45" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="700" fill="white">Groo</text>
+  </g>
+
+  <!-- Tagline -->
+  <text x="600" y="230" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#a1a1aa" text-anchor="middle">An ecosystem of applications, tools, and libraries</text>
+
+  <!-- URL -->
+  <text x="600" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#0D9488" text-anchor="middle">groo.dev</text>
+</svg>

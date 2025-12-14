@@ -1,7 +1,5 @@
-<h1 align="center">Groo</h1>
-
 <p align="center">
-  <strong>An ecosystem of applications, tools, and libraries</strong>
+  <img src="banner.png" alt="Groo - An ecosystem of applications, tools, and libraries" width="100%">
 </p>
 
 <p align="center">
