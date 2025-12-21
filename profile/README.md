@@ -11,12 +11,13 @@
 
 ### Applications
 
-End-user applications powered by Groo.
-
 | | Description |
 |--|-------------|
 | [**Pass**](https://pass.groo.dev) | Password manager |
 | [**Drive**](https://drive.groo.dev) | Cloud storage |
+| [**Accounts**](https://accounts.groo.dev) | Authentication management for multiple applications |
+| [**AI**](https://ai.groo.dev) | Hybrid search and RAG-based chat for documentation |
+| [**Ops**](https://ops.groo.dev) | Deployment tracking and automated application versioning |
 
 ### Developer Tools
 
