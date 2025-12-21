@@ -22,18 +22,28 @@ End-user applications powered by Groo.
 
 Tools for developers working within the Groo ecosystem.
 
-| Repository | Description |
-|------------|-------------|
-| [groo-cli](https://github.com/groo-dev/groo-cli) | Development CLI for managing monorepo services |
+| | Description |
+|--|-------------|
+| [groo-cli](https://github.com/groo-dev/cli) | Development CLI for managing monorepo services |
 | [record-release](https://github.com/groo-dev/record-release) | GitHub Action for recording releases |
 | [cl-wrangler](https://github.com/groo-dev/cl-wrangler) | Multi-account Cloudflare Wrangler |
 
-### Libraries
+### Auth SDKs
 
 SDKs for building applications with Groo's centralized authentication.
 
-| Repository | Description |
-|------------|-------------|
-| [auth-core](https://github.com/groo-dev/auth-core) | Core authentication types and utilities |
-| [auth-react](https://github.com/groo-dev/auth-react) | React hooks and components |
-| [auth-server](https://github.com/groo-dev/auth-server) | Server-side middleware for Hono |
+| | Description |
+|--|-------------|
+| [@groo.dev/auth-core](https://www.npmjs.com/package/@groo.dev/auth-core) | Core authentication types and utilities |
+| [@groo.dev/auth-react](https://www.npmjs.com/package/@groo.dev/auth-react) | React hooks and components |
+| [@groo.dev/auth-server](https://www.npmjs.com/package/@groo.dev/auth-server) | Server-side middleware for Hono |
+
+### AI SDKs
+
+Add AI-powered chat and search to your documentation. [ai.groo.dev](https://ai.groo.dev)
+
+| | Description |
+|--|-------------|
+| [@groo.dev/ai-core](https://www.npmjs.com/package/@groo.dev/ai-core) | Core SDK - chat and search APIs |
+| [@groo.dev/ai-react](https://www.npmjs.com/package/@groo.dev/ai-react) | React components and hooks |
+| [@groo.dev/ai-docusaurus](https://www.npmjs.com/package/@groo.dev/ai-docusaurus) | Docusaurus plugin for AI sidebar |
